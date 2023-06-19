@@ -1,0 +1,136 @@
+h2{
+    font-size: 2rem;
+    text-align: center;
+    color: black;
+    margin-top: 0.5rem;
+}
+@media (max-width:480px) {
+    h2{
+        font-size: 2rem;
+        text-align: center;
+        color: black;
+        margin-top: 0.5rem;
+        font-size: 30px;
+    }
+   }
+
+.form-control{
+    display: flex;
+    justify-content: center;
+}
+.text-input{
+    flex-grow: 1;
+    padding: 5px 5px;
+    border: 1px solid #eaeaea;
+    border-radius: 5px;
+    font-size: 18px;
+}
+.text-input:focus{
+    outline: none;
+}
+.submit-btn{
+    background: #b0dbe8;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 1.2rem;
+    border: transparent;
+}
+.input {
+    color: #010911;
+    border: 2px solid #b0dbe8;
+    border-radius: 10px;
+    padding: 10px 25px;
+    background: transparent;
+    max-width: 355px;
+   }
+   @media (max-width:480px) {
+    .input {
+        color: #010911;
+        border: 2px solid #b0dbe8;
+        border-radius: 10px;
+        padding: 10px 25px;
+        background: transparent;
+        max-width: 200px;
+       }
+   }
+   
+   .input:active {
+    box-shadow: 2px 2px 15px #b0dbe8 inset;
+   }
+
+   .cta {
+    position: relative;
+    margin-left: 15px;
+    padding: 12px 18px;
+    transition: all 0.2s ease;
+    border: none;
+    background: none;
+   }
+   
+   .cta:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    border-radius: 50px;
+    background: #b1dae7;
+    width: 50px;
+    height: 45px;
+    transition: all 0.3s ease;
+   }
+   @media (max-width:480px) {
+    .cta:before {
+        content: "";
+        position: absolute;
+        top: 5px;
+        left: 0;
+        display: block;
+        border-radius: 50px;
+        background: #b1dae7;
+        width: 50px;
+        height: 45px;
+        transition: all 0.3s ease;
+       }
+   }
+   
+   .cta span {
+    position: relative;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    color: #010911;
+   }
+ 
+   
+  
+   
+   .cta svg {
+    position: relative;
+    top: 0;
+    margin-left: 15px;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke: #234567;
+    stroke-width: 2;
+    transform: translateX(-5px);
+    transition: all 0.3s ease;
+   }
+   
+   .cta:hover:before {
+    width: 100%;
+    background: #b0dbe8;
+   }
+   
+   .cta:hover svg {
+    transform: translateX(0);
+   }
+   
+   .cta:active {
+    transform: scale(0.95);
+   }
+   
+
